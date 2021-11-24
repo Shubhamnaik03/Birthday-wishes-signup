@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Dongle:wght@700&family=Loved+by+the+King&family=Montserrat:wght@400;500;700&family=Noto+Serif:wght@700&family=Ubuntu:wght@300;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgba(238, 236, 236, 0.555);
+}
+.container{
+    border: 1px solid rgba(253, 45, 45, 0);
+    width: 100%;
+    height: auto;
+   
+}
+.form-group{
+    width: 50%;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 95px auto ;
+    height: auto;
+    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.212);
+    background: linear-gradient(rgb(246, 157, 157), rgb(128, 26, 26));
+}
+.form-heading{
+    width: 50%;
+    background: white;
+    margin:  auto;
+    font-size: 0.8rem;
+    height: 130px;
+    padding:10px;
+    text-align: center;
+    border-radius: 10px 10px 0  0  ;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 1.5;
+}
+.form-heading1{
+    width: 50%;
+    background: white;
+    margin:  auto;
+    font-size: 0.8rem;
+    height: 80px;
+    padding:10px;
+    text-align: center;
+    border-radius: 10px 10px 0  0  ;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 1.5;
+}
+.form-inputs{
+    width: 50%;
+    margin: auto;
+    padding:10px;
+    height: auto;
+    background: white;
+    border-radius: 0  0 10px 10px ;
+}
+
+
+label{
+ display: block;
+   padding: 5px 0 0 32px;
+   justify-content: left;
+   font-size: 0.8rem;
+   font-family: 'Montserrat', sans-serif;
+}
+
+input{
+    display: block;
+    margin: 5px auto;
+    width: 80%;
+    height: 30px;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    background: rgb(224, 224, 224);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+button{
+    margin: 5px 0 0 0;
+    width:60%;
+    padding: 6px 30px;
+    border: 0;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+
+}
+.image{
+    width:25%;
+    height: auto;
+}
+.image:hover{
+    width: 25%;
+}
+
+input:hover {
+    outline: none;
+    box-shadow: 0 0 10px #000000;
+}
+button:hover{
+    border: 1px solid black;
+    box-shadow: 0 0 10px #000000;
+   background: white;
+   color:black;
+}
+p{
+    font-size: 0.6rem;
+    padding-top: 3px;
+    letter-spacing: 2pt;
+    color: rgb(128, 125, 125);
+}
+
+/* //////////// media qures ////////// */
+@media (min-width:240px) and (max-width:500px){
+    .form-group{
+        width:85%;
+    }
+    .form-heading, .form-inputs, .form-heading1{
+        width:100%;
+        height: auto;
+    }
+    .wrong{
+        width:40%;
+    }
+    .right{
+        width:40%;
+    }
+
+}
+
+@media (min-width:501px) and (max-width:800px){
+    .form-group{
+        width:80%;
+    }
+    .form-heading, .form-heading1{
+        width:100%;
+        height: auto;
+      
+    }
+    .form-inputs{
+        width:100%;
+    }
+    label{
+          padding: 15px 0 5px 55px;
+    }
+}
+@media (min-width:801px) and (max-width:1200px){
+    .form-group{
+        width:80%;
+        
+    }
+    .form-heading, .form-heading1{
+        width:100%;
+        height: auto;
+      
+    }
+    .form-inputs{
+        width:100%;
+        
+    }
+    label{
+        padding: 15px 0 5px 75px;
+  }
+}
+
+input[type="date"]{
+ color:rgb(124, 123, 123);
+ text-align: center;
+ text-transform: uppercase;
+ }
+
+ 
+ input[type="date"]::-webkit-calendar-picker-indicator {
+    -webkit-appearance:initial;
+     width: 30px;
+     height: 20px;
+     margin-left: -33px;
+ }
+ .right{
+     width:70%;
+     border-radius: 50%;
+     /* margin-left: 50px; */
+ }
+ .wrong{
+    width:70%;
+    border-radius: 50%;
+    /* margin-left: 58px; */
+}
+
+
+ /* sign up page css */
+ h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+ }
+ h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+ }
+ 
